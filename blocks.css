@@ -1,0 +1,73 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+/* 1st block */
+#one {
+    border: 5px solid blue;
+    margin: 5px;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 25%;
+}
+
+/* 2nd block */
+#two {
+    border: 5px solid green;
+    margin: 5px;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 25%;
+}
+
+/* 3rd block */
+#three {
+    border: 5px solid orange;
+    margin: 5px;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+}
+
+/* 4th block */
+#four {
+    border: 5px solid yellow;
+    margin: 5px;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 25%;
+}
+
+/* Style for the link */
+#link {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+ a {
+    background-color: #1f5cd4;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 02px;
+    border-radius: 3px;
+}
+
+#link a:hover {
+    background-color: #001f66;
+}
